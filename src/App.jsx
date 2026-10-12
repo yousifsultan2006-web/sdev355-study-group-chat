@@ -29,7 +29,7 @@ function handleReact(id) {
   );
   setMessages({ ...messages, [activeId]: updated });
 }
-
+//finished lab commit
 function handlePin(id) {
   setPinnedId(pinnedId === id ? null : id);
 };
